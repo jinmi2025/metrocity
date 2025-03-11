@@ -1,0 +1,74 @@
+/* search.css */
+
+.SearchWrap {
+    position: absolute;
+    top: 81px;
+    left: 0;
+    width: 1040px;
+    padding: 25px 200px;
+    background-color: antiquewhite;
+}
+
+.SearchForm {
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+    margin: 0 auto;
+    border-bottom: 2px solid #333;
+}
+
+.SearchForm input {
+    width: 480px;
+    height: 60px;
+    border: 0;
+    padding: 0 12px;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.SearchForm button {
+    width: 60px;
+    height: 60px;
+    border: 0;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+.SearchWrap .row2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+.SearchWrap .row2 h3 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.SearchKeyword li {
+    margin-bottom: 8px;
+}
+
+.SearchKeyword li .number {
+    display: inline-block;
+    width: 28px;
+    color: #888;
+}
+
+.SearchKeyword li .text {
+    color: #888;
+}
+
+.SearchBestItem {
+    width: 828px;
+}
+
+.SearchBestItem ul {
+    display: flex;
+    gap: 20px;
+}
+
+.SearchBestItem li {
+    width: 192px;
+}
