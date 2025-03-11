@@ -1,0 +1,755 @@
+{
+   "version": "1.0",
+   "products": [
+      {
+         "model": {
+            "model_id": 147,
+            "cate_no": 101,
+            "name": "25SS 알레그로 버킷백 스몰",
+            "price": 579000
+         },
+         "variants": [
+            {
+               "id": 1085,
+               "serial": "M251MF2974H",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote20/01.jpg",
+                  "/assets/images/thumbnail/wo-tote20/02.jpg",
+                  "/assets/images/thumbnail/wo-tote20/03.jpg",
+                  "/assets/images/thumbnail/wo-tote20/04.jpg",
+                  "/assets/images/thumbnail/wo-tote20/05.jpg"
+               ],
+               "stock": 51,
+               "discount": 10,
+               "sales_count": 12,
+               "details": [
+                  "/assets/images/detail/wo-tote20/01.jpg",
+                  "/assets/images/detail/wo-tote20/02.jpg",
+                  "/assets/images/detail/wo-tote20/03.jpg"
+               ],
+               "description": "베스트 MF1973 라인의 25SS 사이즈 리노베이션 버전으로 제작된 스몰 버킷백이다.기존의 MF1973보다 더 컴팩트해진 사이즈로 가벼운 착용감을 제공한다.투톤의 양면 소가죽을 사용하여 내부에 컬러감이 돋보인다.새롭게 선보이는 꽃모양의 라로사 참은 화사한 컬러감으로 가방에 포인트를 더해준다.넓어진 마그넷 잠금 장식이 내부를 가려주어 더욱 안전한 소지품 보관이 가능하다.스크래치에 강한 사피아노 엠보 가죽을 사용하여 내구성을 높였다.\n· 종류 :여성핸드백\n· 소재 :소가죽(COW LEATHER)\n· 색상 :화이트\n· 크기 :가로 19.5CM / 세로 20CM /폭 12CM / 핸들 12CM / 스트랩 54CM제조자(수입자명) : ㈜디에스피홀딩스\n· 제조국 : 중국\n· AS책임자와 전화번호 : (주)엠티콜렉션 1566-1165",
+               "created_at": "2025-02-20T08:30:00.000Z"
+            },
+            {
+               "id": 1084,
+               "serial": "M251MF2974Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote19/01.jpg"
+               ],
+               "stock": 12,
+               "discount": 10,
+               "sales_count": 2,
+               "created_at": "2025-02-20T09:15:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 146,
+            "cate_no": 101,
+            "name": "25SS 알레그로 토트백 스몰",
+            "price": 659000
+         },
+         "variants": [
+            {
+               "id": 1082,
+               "serial": "M251MF2970H",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote17/01.jpg"
+               ],
+               "stock": 25,
+               "discount": 10,
+               "sales_count": 2,
+               "created_at": "2025-02-20T11:30:00.000Z"
+            },
+            {
+               "id": 1081,
+               "serial": "M251MF2970Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote16/01.jpg"
+               ],
+               "stock": 23,
+               "discount": 10,
+               "sales_count": 5,
+               "created_at": "2025-02-20T12:30:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 145,
+            "cate_no": 101,
+            "name": "25SS 알레그로 버킷백 미듐",
+            "price": 597000
+         },
+         "variants": [
+            {
+               "id": 1083,
+               "serial": "M251MF2973Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote18/01.jpg"
+               ],
+               "stock": 54,
+               "discount": 10,
+               "sales_count": 1,
+               "created_at": "2025-02-20T10:45:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 144,
+            "cate_no": 101,
+            "name": "25SS 알레그로 토트백 미듐",
+            "price": 697000
+         },
+         "variants": [
+            {
+               "id": 1080,
+               "serial": "M251MF2971Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote15/01.jpg"
+               ],
+               "stock": 26,
+               "discount": 10,
+               "sales_count": 2,
+               "created_at": "2025-02-20T13:45:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 143,
+            "cate_no": 101,
+            "name": "25SS 알레그로 버킷백 스몰",
+            "price": 459000
+         },
+         "variants": [
+            {
+               "id": 1079,
+               "serial": "M251MF3974R",
+               "color": "rd",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote14/01.jpg"
+               ],
+               "stock": 35,
+               "discount": 10,
+               "sales_count": 0,
+               "created_at": "2025-02-20T14:30:00.000Z"
+            },
+            {
+               "id": 1078,
+               "serial": "M251MF3974H",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote13/01.jpg"
+               ],
+               "stock": 84,
+               "discount": 10,
+               "sales_count": 3,
+               "created_at": "2025-02-20T15:45:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 142,
+            "cate_no": 101,
+            "name": "25SS 카메라백 스몰",
+            "price": 519000
+         },
+         "variants": [
+            {
+               "id": 1077,
+               "serial": "M251MQ3622I",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote12/01.jpg"
+               ],
+               "stock": 45,
+               "discount": 10,
+               "sales_count": 1,
+               "created_at": "2025-02-09T09:30:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 141,
+            "cate_no": 101,
+            "name": "25SS 그리드 스트링 버킷백 스몰",
+            "price": 519000
+         },
+         "variants": [
+            {
+               "id": 1076,
+               "serial": "M251MQ2372I",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote11/01.jpg"
+               ],
+               "stock": 25,
+               "discount": 10,
+               "sales_count": 2,
+               "created_at": "2025-02-09T10:15:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 140,
+            "cate_no": 101,
+            "name": "25SS 그리드 스파 토트백 스몰",
+            "price": 479000
+         },
+         "variants": [
+            {
+               "id": 1075,
+               "serial": "M251MQ2371V",
+               "color": "gr",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote10/01.jpg"
+               ],
+               "stock": 65,
+               "discount": 10,
+               "sales_count": 5,
+               "created_at": "2025-02-09T11:00:00.000Z"
+            },
+            {
+               "id": 1074,
+               "serial": "M251MQ2371I",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote09/01.jpg"
+               ],
+               "stock": 68,
+               "discount": 10,
+               "sales_count": 6,
+               "created_at": "2025-02-09T11:45:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 139,
+            "cate_no": 101,
+            "name": "25SS 그리드 스파 토트백 미듐",
+            "price": 579000
+         },
+         "variants": [
+            {
+               "id": 1073,
+               "serial": "M251MQ2370I",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote08/01.jpg"
+               ],
+               "stock": 25,
+               "discount": 10,
+               "sales_count": 8,
+               "created_at": "2025-02-09T12:30:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 138,
+            "cate_no": 101,
+            "name": "25SS 다이아 클라시코 토트백 미듐",
+            "price": 539000
+         },
+         "variants": [
+            {
+               "id": 1072,
+               "serial": "M251MQ1251N",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote07/01.jpg"
+               ],
+               "stock": 25,
+               "discount": 28,
+               "sales_count": 10,
+               "created_at": "2025-02-09T13:15:00.000Z"
+            },
+            {
+               "id": 1071,
+               "serial": "M251MQ1251U",
+               "color": "pp",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote06/01.jpg"
+               ],
+               "stock": 85,
+               "discount": 28,
+               "sales_count": 5,
+               "created_at": "2025-02-09T14:00:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 137,
+            "cate_no": 101,
+            "name": "토트백",
+            "price": 497000
+         },
+         "variants": [
+            {
+               "id": 1058,
+               "serial": "M243MQ9371Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote05/01.jpg"
+               ],
+               "stock": 26,
+               "discount": 0,
+               "sales_count": 2,
+               "created_at": "2025-01-15T08:00:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 136,
+            "cate_no": 101,
+            "name": "[MQ6700 라인] 토트백 스몰",
+            "price": 539000
+         },
+         "variants": [
+            {
+               "id": 1057,
+               "serial": "M243MQ6702I",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote04/01.jpg"
+               ],
+               "stock": 54,
+               "discount": 24,
+               "sales_count": 3,
+               "created_at": "2025-01-15T09:00:00.000Z"
+            },
+            {
+               "id": 1056,
+               "serial": "M243MQ6702F",
+               "color": "sb",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote03/01.jpg"
+               ],
+               "stock": 26,
+               "discount": 0,
+               "sales_count": 5868,
+               "created_at": "2025-01-15T10:00:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 134,
+            "cate_no": 101,
+            "name": "[MQ6700 라인] 토트백 미듐",
+            "price": 639000
+         },
+         "variants": [
+            {
+               "id": 1055,
+               "serial": "M243MQ6701Z",
+               "color": "",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote02/01.jpg"
+               ],
+               "stock": 65,
+               "discount": 24,
+               "sales_count": 5,
+               "created_at": "2025-01-15T11:00:00.000Z"
+            },
+            {
+               "id": 1054,
+               "serial": "M243MQ6701W",
+               "color": "",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-tote01/01.jpg"
+               ],
+               "stock": 68,
+               "discount": 40,
+               "sales_count": 8,
+               "created_at": "2025-01-15T12:00:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 451,
+            "cate_no": 105,
+            "name": "25SS 해피로사 장지갑",
+            "price": 319000
+         },
+         "variants": [
+            {
+               "id": 1070,
+               "serial": "M251WQ4560Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet20/01.jpg"
+               ],
+               "stock": 64,
+               "discount": 10,
+               "sales_count": 2,
+               "created_at": "2025-02-20T08:31:00.000Z"
+            },
+            {
+               "id": 1069,
+               "serial": "M251WQ4560H",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet19/01.jpg"
+               ],
+               "stock": 85,
+               "discount": 10,
+               "sales_count": 5,
+               "created_at": "2025-02-20T09:14:00.000Z"
+            },
+            {
+               "id": 1068,
+               "serial": "M251WQ4560R",
+               "color": "rd",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet18/01.jpg"
+               ],
+               "stock": 25,
+               "discount": 10,
+               "sales_count": 11,
+               "created_at": "2025-02-20T11:32:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 450,
+            "cate_no": 105,
+            "name": "25SS 2단 반지갑",
+            "price": 197000
+         },
+         "variants": [
+            {
+               "id": 1067,
+               "serial": "M251WQ3620I",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet17/01.jpg"
+               ],
+               "stock": 35,
+               "discount": 10,
+               "sales_count": 9,
+               "created_at": "2025-02-20T12:25:00.000Z"
+            },
+            {
+               "id": 1066,
+               "serial": "M251WQ3620Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet16/01.jpg"
+               ],
+               "stock": 61,
+               "discount": 10,
+               "sales_count": 8,
+               "created_at": "2025-02-20T13:41:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 1065,
+            "cate_no": 105,
+            "name": "25SS 카드지갑",
+            "price": 159000
+         },
+         "variants": [
+            {
+               "id": 1065,
+               "serial": "M251WQ3621Z",
+               "color": "",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet15/01.jpg"
+               ],
+               "stock": 84,
+               "discount": 10,
+               "sales_count": 8,
+               "created_at": "2025-02-20T14:35:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 449,
+            "cate_no": 105,
+            "name": "25SS 해피 로사 2단 카드지갑",
+            "price": 149000
+         },
+         "variants": [
+            {
+               "id": 1064,
+               "serial": "M251WF2973H",
+               "color": "",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet14/01.jpg"
+               ],
+               "stock": 87,
+               "discount": 10,
+               "sales_count": 7,
+               "created_at": "2025-02-09T09:37:00.000Z"
+            },
+            {
+               "id": 1063,
+               "serial": "M251WF2973Z",
+               "color": "",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet13/01.jpg"
+               ],
+               "stock": 65,
+               "discount": 10,
+               "sales_count": 6,
+               "created_at": "2025-02-09T10:12:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 448,
+            "cate_no": 105,
+            "name": "25SS 해피 로사 2단 반지갑",
+            "price": 219000
+         },
+         "variants": [
+            {
+               "id": 1062,
+               "serial": "M251WF2971Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet12/01.jpg"
+               ],
+               "stock": 76,
+               "discount": 10,
+               "sales_count": 5,
+               "created_at": "2025-02-09T11:01:00.000Z"
+            },
+            {
+               "id": 1060,
+               "serial": "M251WF2971H",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet10/01.jpg"
+               ],
+               "stock": 56,
+               "discount": 10,
+               "sales_count": 3,
+               "created_at": "2025-02-09T13:17:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 447,
+            "cate_no": 105,
+            "name": "25SS 해피 로사 3단 반지갑",
+            "price": 219000
+         },
+         "variants": [
+            {
+               "id": 1061,
+               "serial": "M251WF2979H",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet11/01.jpg"
+               ],
+               "stock": 34,
+               "discount": 10,
+               "sales_count": 4,
+               "created_at": "2025-02-09T12:38:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 446,
+            "cate_no": 105,
+            "name": "25SS 부오나 소르테 3단 카드지갑",
+            "price": 219000
+         },
+         "variants": [
+            {
+               "id": 1059,
+               "serial": "M251WQ3361Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet09/01.jpg"
+               ],
+               "stock": 54,
+               "discount": 10,
+               "sales_count": 2,
+               "created_at": "2025-02-09T14:01:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 445,
+            "cate_no": 105,
+            "name": "[ONLINE EXCLUSIVE] 반지갑",
+            "price": 239000
+         },
+         "variants": [
+            {
+               "id": 1053,
+               "serial": "M211WO0921Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet08/01.jpg"
+               ],
+               "stock": 25,
+               "discount": 30,
+               "sales_count": 8,
+               "created_at": "2025-01-15T08:02:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 444,
+            "cate_no": 105,
+            "name": "2단 반지갑",
+            "price": 219000
+         },
+         "variants": [
+            {
+               "id": 1052,
+               "serial": "M243WQ3561Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet07/01.jpg"
+               ],
+               "stock": 35,
+               "discount": 30,
+               "sales_count": 6,
+               "created_at": "2025-01-15T09:05:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 443,
+            "cate_no": 105,
+            "name": "2단 장지갑",
+            "price": 259000
+         },
+         "variants": [
+            {
+               "id": 1051,
+               "serial": "M243WQ3560Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet06/01.jpg"
+               ],
+               "stock": 85,
+               "discount": 30,
+               "sales_count": 7,
+               "created_at": "2025-01-15T10:03:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 442,
+            "cate_no": 105,
+            "name": "라운드지퍼 반지갑",
+            "price": 249000
+         },
+         "variants": [
+            {
+               "id": 1050,
+               "serial": "M243WO1910Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet05/01.jpg"
+               ],
+               "stock": 65,
+               "discount": 40,
+               "sales_count": 5,
+               "created_at": "2025-01-15T11:02:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 441,
+            "cate_no": 105,
+            "name": "2단 반지갑",
+            "price": 197000
+         },
+         "variants": [
+            {
+               "id": 1049,
+               "serial": "M243WQ1971Y",
+               "color": "bg",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet04/01.jpg"
+               ],
+               "stock": 56,
+               "discount": 0,
+               "sales_count": 6,
+               "created_at": "2025-01-15T12:01:00.000Z"
+            },
+            {
+               "id": 1048,
+               "serial": "M243WQ1971P",
+               "color": "pk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet03/01.jpg"
+               ],
+               "stock": 56,
+               "discount": 0,
+               "sales_count": 5,
+               "created_at": "2025-01-12T10:00:00.000Z"
+            },
+            {
+               "id": 1047,
+               "serial": "M243WQ1971Z",
+               "color": "bk",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet02/01.jpg"
+               ],
+               "stock": 75,
+               "discount": 0,
+               "sales_count": 5,
+               "created_at": "2025-01-12T11:00:00.000Z"
+            }
+         ]
+      },
+      {
+         "model": {
+            "model_id": 440,
+            "cate_no": 105,
+            "name": "3단 반지갑",
+            "price": 279000
+         },
+         "variants": [
+            {
+               "id": 1046,
+               "serial": "M242WQ3852H",
+               "color": "wh",
+               "thumbnail": [
+                  "/assets/images/thumbnail/wo-wallet01/01.jpg"
+               ],
+               "stock": 52,
+               "discount": 0,
+               "sales_count": 8,
+               "created_at": "2025-01-12T12:00:00.000Z"
+            }
+         ]
+      }
+   ]
+}

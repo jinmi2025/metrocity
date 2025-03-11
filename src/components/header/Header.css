@@ -1,0 +1,41 @@
+#header {
+    position: relative;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+    z-index: 500;
+}
+
+.header_inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header_left .logo {
+    height: 16px;
+}
+
+.header_left .logo img {
+    width: auto;
+    height: 100%;
+}
+
+.hover-bg {
+    position: absolute;
+    top: 81px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+}

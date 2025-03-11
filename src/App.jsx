@@ -1,12 +1,14 @@
 import { Outlet, BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Main } from './pages/main';
 import { AccountRoutes } from './routes';
 import { AuthProvider } from './data';
-import { Header, Footer } from './components/commens';
+import { Header } from './components/header';
+import { Footer } from './components/footer';
+import { Main } from './pages/main';
+import { SearchResults } from './pages/search';
 import './App.css';
 
 const Layout = () => {
-  return(
+  return (
     <div id='wrapper'>
       <Header />
       <Outlet />
@@ -16,7 +18,7 @@ const Layout = () => {
 };
 
 const App = () => {
-  
+
   return (
     <AuthProvider>
       <BrowserRouter>
@@ -24,6 +26,7 @@ const App = () => {
           <Route path='/' element={<Layout />}>
             <Route index element={<Main />} />
             <Route path='/account/*' element={<AccountRoutes />} />
+            <Route path='/search' element={<SearchResults />} />
           </Route>
         </Routes>
       </BrowserRouter>

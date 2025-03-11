@@ -1,0 +1,98 @@
+.gnb>ul {
+    display: flex;
+}
+
+.gnb>ul>li {
+    position: relative;
+    padding: 0 24px;
+}
+
+.gnb>ul>li.has3 {
+    position: static;
+}
+
+.gnb>ul>li>a {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    color: #666;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.gnb>ul>li:hover>a {
+    color: #222;
+}
+
+.gnb>ul>li:hover>a::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #222;
+}
+
+.gnb .depth2 {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    box-sizing: border-box;
+    width: 200%;
+    padding-left: 24px;
+}
+
+.gnb .has3 .depth2 {
+    width: 100%;
+}
+
+.gnb>ul>li:hover .depth2 {
+    display: block;
+}
+
+.gnb .depth2-menu {
+    padding: 25px 0;
+}
+
+.gnb .depth2-menu li a {
+    display: block;
+    padding: 6px 0;
+    color: #333;
+    font-weight: 500;
+}
+
+.gnb .has3 .depth2-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb .has3 .depth2-menu>ul {
+    display: flex;
+    gap: 60px;
+}
+
+.gnb .has3 .depth3-menu li a {
+    padding: 4px 0;
+    color: #888;
+    font-weight: 400;
+}
+
+.gnb .has3 .depth2-img {
+    padding: 25px 0;
+}
+
+.gnb .has3 .depth2-img ul {
+    display: flex;
+    gap: 8px;
+}
+
+.gnb .has3 .depth2-img li {
+    width: 200px;
+}
+
+.gnb .has3 .depth2-img img {
+    width: 100%;
+    height: auto;
+}
