@@ -1,0 +1,76 @@
+/* SearchResults.css */
+
+.SearchResults {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.SearchResults h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.SearchResults .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 28px;
+}
+
+.SearchResults .topRight {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.SearchResults .topRight .sort-btn {
+    display: flex;
+    gap: 8px;
+}
+
+.SearchResults .topRight .sort-btn p button {
+    border: 0;
+    background-color: transparent;
+    color: #888;
+}
+
+.SearchResults .topRight .sort-btn .active button {
+    color: #111;
+}
+
+.SearchResults .topRight .SearchForm {
+    width: 280px;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+
+.SearchResults .topRight .SearchForm input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+}
+
+.SearchResults .topRight .SearchForm button {
+    width: 40px;
+    height: 40px;
+    border-left: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.SearchResults .hasResults ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 20px;
+}
+
+.SearchResults .hasResults li {
+    width: 345px;
+}
+
+.SearchResults .noResults {
+    text-align: center;
+    font-size: 20px;
+}

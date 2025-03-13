@@ -1,6 +1,15 @@
 /* ItemCard.css */
+.item-card .product-img {
+    margin-bottom: 12px;
+}
 
-.product-img img {
+.item-card .product-name {
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.item-card .product-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;

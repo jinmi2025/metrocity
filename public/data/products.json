@@ -5,6 +5,9 @@
          "model": {
             "model_id": 147,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 알레그로 버킷백 스몰",
             "price": 579000
          },
@@ -49,6 +52,9 @@
          "model": {
             "model_id": 146,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 알레그로 토트백 스몰",
             "price": 659000
          },
@@ -83,6 +89,9 @@
          "model": {
             "model_id": 145,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 알레그로 버킷백 미듐",
             "price": 597000
          },
@@ -105,6 +114,9 @@
          "model": {
             "model_id": 144,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 알레그로 토트백 미듐",
             "price": 697000
          },
@@ -127,6 +139,9 @@
          "model": {
             "model_id": 143,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 알레그로 버킷백 스몰",
             "price": 459000
          },
@@ -161,6 +176,9 @@
          "model": {
             "model_id": 142,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 카메라백 스몰",
             "price": 519000
          },
@@ -183,6 +201,9 @@
          "model": {
             "model_id": 141,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 그리드 스트링 버킷백 스몰",
             "price": 519000
          },
@@ -205,6 +226,9 @@
          "model": {
             "model_id": 140,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 그리드 스파 토트백 스몰",
             "price": 479000
          },
@@ -239,6 +263,9 @@
          "model": {
             "model_id": 139,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 그리드 스파 토트백 미듐",
             "price": 579000
          },
@@ -261,6 +288,9 @@
          "model": {
             "model_id": 138,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "25SS 다이아 클라시코 토트백 미듐",
             "price": 539000
          },
@@ -295,6 +325,9 @@
          "model": {
             "model_id": 137,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "토트백",
             "price": 497000
          },
@@ -317,6 +350,9 @@
          "model": {
             "model_id": 136,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "[MQ6700 라인] 토트백 스몰",
             "price": 539000
          },
@@ -342,7 +378,7 @@
                ],
                "stock": 26,
                "discount": 0,
-               "sales_count": 5868,
+               "sales_count": 104,
                "created_at": "2025-01-15T10:00:00.000Z"
             }
          ]
@@ -351,6 +387,9 @@
          "model": {
             "model_id": 134,
             "cate_no": 101,
+            "main_category": "WOMEN",
+            "sub_category": "BAG",
+            "detail_category": "TOTE_BAG",
             "name": "[MQ6700 라인] 토트백 미듐",
             "price": 639000
          },
@@ -385,6 +424,9 @@
          "model": {
             "model_id": 451,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "25SS 해피로사 장지갑",
             "price": 319000
          },
@@ -431,6 +473,9 @@
          "model": {
             "model_id": 450,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "25SS 2단 반지갑",
             "price": 197000
          },
@@ -465,6 +510,9 @@
          "model": {
             "model_id": 1065,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "25SS 카드지갑",
             "price": 159000
          },
@@ -487,6 +535,9 @@
          "model": {
             "model_id": 449,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "25SS 해피 로사 2단 카드지갑",
             "price": 149000
          },
@@ -521,6 +572,9 @@
          "model": {
             "model_id": 448,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "25SS 해피 로사 2단 반지갑",
             "price": 219000
          },
@@ -555,6 +609,9 @@
          "model": {
             "model_id": 447,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "25SS 해피 로사 3단 반지갑",
             "price": 219000
          },
@@ -577,6 +634,9 @@
          "model": {
             "model_id": 446,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "25SS 부오나 소르테 3단 카드지갑",
             "price": 219000
          },
@@ -599,6 +659,9 @@
          "model": {
             "model_id": 445,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "[ONLINE EXCLUSIVE] 반지갑",
             "price": 239000
          },
@@ -621,6 +684,9 @@
          "model": {
             "model_id": 444,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "2단 반지갑",
             "price": 219000
          },
@@ -643,6 +709,9 @@
          "model": {
             "model_id": 443,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "2단 장지갑",
             "price": 259000
          },
@@ -665,6 +734,9 @@
          "model": {
             "model_id": 442,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "라운드지퍼 반지갑",
             "price": 249000
          },
@@ -687,6 +759,9 @@
          "model": {
             "model_id": 441,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "2단 반지갑",
             "price": 197000
          },
@@ -733,6 +808,9 @@
          "model": {
             "model_id": 440,
             "cate_no": 105,
+            "main_category": "WOMEN",
+            "sub_category": "SLG",
+            "detail_category": "WALLET",
             "name": "3단 반지갑",
             "price": 279000
          },

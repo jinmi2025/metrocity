@@ -8,7 +8,7 @@ import './HeadUtils.css';
 
 const HeadUtils = () => {
     const { user, logout } = useContext(AuthContext);
-    const [isSearch, setIsSearch] = useState(true);
+    const [isSearch, setIsSearch] = useState(false);
 
     const handleSearchView = () => {
         setIsSearch(!isSearch);

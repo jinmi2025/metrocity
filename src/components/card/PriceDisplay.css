@@ -1,0 +1,23 @@
+/* PriceDisplay.css */
+
+.price-display {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.price-display .discount {
+    color: #dc143c;
+    font-weight: 600;
+}
+
+.price-display .sale-price {
+    color: #333;
+    font-weight: 600;
+}
+
+.price-display .origin-price {
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #999;
+}

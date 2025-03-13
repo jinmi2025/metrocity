@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-const SearchForm = ({ handleSearchView }) => {
+const SearchForm = ({ handleSearchView, keyword = '' }) => {
     const navigate = useNavigate();
-    const [search, setSearch] = useState('');
+    const [search, setSearch] = useState(keyword);
 
     const handleSearchInput = (e) => {
         setSearch(e.target.value);
