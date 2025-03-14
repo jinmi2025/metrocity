@@ -64,20 +64,30 @@ const SearchResults = () => {
     // a - b의 결과가 양수라면 : a가 더 큰 수. a를 b보다 뒤로 배치
     // a - b의 결과가 음수라면 : b가 더 큰 수. a를 b보다 앞으로 배치
     // => 오름차순 정렬
-    const sortedProducts = products.sort((a, b) => {
+    const sortedProducts = filteredProuducts.sort((a, b) => {
+        // 개별 판매금액 = 가격 * (100 - 할인) / 100
+        const aPrice = a.price * (100 - a.discount) / 100;
+        const bPrice = b.price * (100 - b.discount) / 100;
+        // 전체 판매금액 = 개별 판매금액 * 판매수량 
+        const aTotalSales = aPrice * a.sales_count;
+        const bTotalSales = bPrice * b.sales_count;
         switch (sortOption) {
             case 'newest':
-                return
+                return new Date(b.created_at) - new Date(a.created_at);
             case 'popular':
-                return
+                return bTotalSales - aTotalSales;
             case 'lowPrice':
-                return
+                return aPrice - bPrice;
             case 'highPrice':
-                return
+                return bPrice - aPrice;
             default:
                 return 0;
         }
     });
+
+    const handleSortChange = (option) => {
+        setSortOption(option);
+    };
 
     return (
         <div className="SearchResults">
@@ -86,10 +96,18 @@ const SearchResults = () => {
                 <div className="topLeft">총 {filteredProuducts.length}개</div>
                 <div className="topRight">
                     <div className="sort-btn">
-                        <p className={sortOption == 'newest' ? 'active' : ''}><button>최신순</button></p>
-                        <p className={sortOption == 'popular' ? 'active' : ''}><button>인기순</button></p>
-                        <p className={sortOption == 'lowPrice' ? 'active' : ''}><button>낮은 가격순</button></p>
-                        <p className={sortOption == 'highPrice' ? 'active' : ''}><button>높은 가격순</button></p>
+                        <p className={sortOption == 'newest' ? 'active' : ''}>
+                            <button onClick={() => { handleSortChange('newest') }}>최신순</button>
+                        </p>
+                        <p className={sortOption == 'popular' ? 'active' : ''}>
+                            <button onClick={() => { handleSortChange('popular') }}>인기순</button>
+                        </p>
+                        <p className={sortOption == 'lowPrice' ? 'active' : ''}>
+                            <button onClick={() => { handleSortChange('lowPrice') }}>낮은 가격순</button>
+                        </p>
+                        <p className={sortOption == 'highPrice' ? 'active' : ''}>
+                            <button onClick={() => { handleSortChange('highPrice') }}>높은 가격순</button>
+                        </p>
                     </div>
                     <SearchForm keyword={keyword} />
                 </div>
@@ -98,7 +116,7 @@ const SearchResults = () => {
                 ? <div className="noResults">검색 결과가 없습니다.</div>
                 : <div className="hasResults">
                     <ul>
-                        {filteredProuducts.map(product =>
+                        {sortedProducts.map(product =>
                             <ItemCard key={product.id} product={product} />
                         )}
                     </ul>

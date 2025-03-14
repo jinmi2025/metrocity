@@ -1,0 +1,34 @@
+/* Main.css */
+
+.main-slide {
+    margin-bottom: 80px;
+}
+
+.main-banner {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.main-banner .x2 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.main-banner .x2>div {
+    width: 708px;
+}
+
+.main-carousel {
+    width: 1440px;
+    margin: 80px auto;
+}
+
+li {
+    list-style: none;
+}
+
+.main-carousel .item-card {
+    box-sizing: border-box;
+    padding: 0 12px;
+}

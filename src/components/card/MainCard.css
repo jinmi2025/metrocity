@@ -1,0 +1,34 @@
+/* MainCard.css */
+
+.MainCard {
+    position: relative;
+}
+
+.MainCard .photo img {
+    width: 100%;
+    height: auto;
+}
+
+.MainCard .text {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #fff;
+}
+
+.MainCard .text .txt1 {
+    font-size: 50px;
+}
+
+.MainCard .text .txt2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.MainCard .text .more a {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #555;
+}
