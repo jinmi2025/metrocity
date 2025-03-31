@@ -2,6 +2,7 @@
 
 .MainCard {
     position: relative;
+    padding: 4px 16px;
 }
 
 .MainCard .photo img {
@@ -11,24 +12,68 @@
 
 .MainCard .text {
     position: absolute;
-    top: 40px;
+    bottom: 40px;
     left: 40px;
+    right: 40px;
+    text-align: center;
     color: #fff;
 }
 
 .MainCard .text .txt1 {
-    font-size: 50px;
+    font-size: 28px;
+    line-height: 1.1;
+    font-weight: 600;
 }
 
 .MainCard .text .txt2 {
     margin-bottom: 24px;
-    font-size: 24px;
+    font-size: 15px;
 }
 
 .MainCard .text .more a {
     display: inline-block;
-    padding: 12px 28px;
+    padding: 8px 20px;
     background-color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     color: #555;
+}
+
+.x1 .MainCard img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+@media screen and (min-width:768px) {
+    .MainCard {
+        padding: 4px;
+    }
+
+    .x1 .MainCard img {
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .MainCard {
+        padding: 8px;
+    }
+
+    .MainCard .text {
+        bottom: auto;
+        top: 40px;
+        text-align: left;
+    }
+
+    .MainCard .text .txt1 {
+        font-size: 48px;
+    }
+
+    .MainCard .text .txt2 {
+        font-size: 24px;
+    }
+
+    .MainCard .text .more a {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
 }

@@ -1,36 +1,20 @@
 /* ProductList.css */
 
-.product-list-inner {
-    width: 1440px;
-    margin: 40px auto;
-}
-
 .product-list h2 {
-    margin-bottom: 40px;
+    padding: 16px 0;
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
 }
 
-.product-list .page-top {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
+.product-list .breadcrumb {
+    display: none;
 }
 
 .product-list .page-top .right {
     display: flex;
-    gap: 12px;
-    font-size: 13px;
-}
-
-.product-list .page-top .right .item-count::after {
-    content: "";
-    display: inline-block;
-    vertical-align: top;
-    height: 11px;
-    border-right: 1px solid #ccc;
-    margin-top: 4px;
-    margin-left: 12px;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding: 0 16px;
 }
 
 .product-list .page-top .right .sort-btn {
@@ -50,23 +34,27 @@
 }
 
 .product-list-box {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+    padding: 0 10px;
 }
 
 .product-list-box ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 60px 20px;
 }
 
 .product-list-box li {
-    width: 272px;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 6px;
+    margin-bottom: 32px;
 }
 
 .product-list .pager {
     display: flex;
     justify-content: center;
     gap: 8px;
+    margin-bottom: 60px;
 }
 
 .product-list .pager button {
@@ -82,4 +70,51 @@
 
 .product-list .pager .paging.active button {
     color: #d70000;
+}
+
+@media screen and (min-width:768px) {
+    .product-list h2 {
+        font-size: 44px;
+        padding: 32px 0;
+    }
+
+    .product-list .page-top .right {
+        padding: 0 32px;
+    }
+
+    .product-list-box {
+        padding: 0 24px;
+    }
+
+    .product-list-box li {
+        width: 33.33%;
+        padding: 8px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .product-list-inner {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    .product-list .page-top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .product-list .breadcrumb {
+        display: flex;
+        padding-left: 32px;
+    }
+
+    .product-list .page-top .right {
+        gap: 16px;
+    }
+
+    .product-list-box li {
+        width: 20%;
+        margin-bottom: 60px;
+    }
 }

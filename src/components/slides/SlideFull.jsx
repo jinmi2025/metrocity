@@ -29,13 +29,24 @@ const SlideFull = ({ banner }) => {
         autoplaySpeed: 5000,
         dots: true,
         nextArrow: <BtnNext />,
-        prevArrow: <BtnPrev />
+        prevArrow: <BtnPrev />,
+        responsive: [
+            {
+                breakpoint: 1279,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
     };
     return (
         <div className="SlideFull">
             <Slider {...settings}>
                 {banner.map((bn, idx) =>
-                    <div key={idx}><img src={bn} /></div>
+                    <div key={idx}>
+                        <img src={bn.pc} className="pc" />
+                        <img src={bn.mo} className="mo" />
+                    </div>
                 )}
             </Slider>
         </div>

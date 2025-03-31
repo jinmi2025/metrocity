@@ -6,9 +6,20 @@ import "./Main.css";
 
 const Main = () => {
     const mainSlideBn = [
-        "/assets/images/main01-1.jpg",
-        "/assets/images/main01-2.jpg"
+        {
+            pc: '/assets/images/main11-pc.jpg',
+            mo: '/assets/images/main11-mo.jpg'
+        },
+        {
+            pc: '/assets/images/main12-pc.jpg',
+            mo: '/assets/images/main12-mo.jpg'
+        },
+        {
+            pc: '/assets/images/main13-pc.jpg',
+            mo: '/assets/images/main13-mo.jpg'
+        }
     ];
+
     const mainCardData = {
         mb2x21: {
             src: "/assets/images/main02-1.jpg",
@@ -77,8 +88,8 @@ const Main = () => {
         fetchData();
     }, []);
 
-    const bagList = products.filter(product => product.cate_no == 101);
-    const walletList = products.filter(product => product.cate_no == 105);
+    const bagList = products.filter(product => product.cate_no == 101).slice(0, 8);
+    const walletList = products.filter(product => product.cate_no == 105).slice(0, 8);
 
     return (
         <div className="Main">

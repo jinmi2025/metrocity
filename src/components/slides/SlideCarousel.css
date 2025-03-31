@@ -1,1 +1,33 @@
 /* SlideCarousel.css */
+
+li {
+    list-style: none;
+}
+
+.main-carousel .slick-list {
+    margin-bottom: 24px;
+}
+
+.main-carousel .slick-slide {
+    box-sizing: border-box;
+    padding: 0 8px;
+}
+
+.main-carousel .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    gap: 8px;
+}
+
+.main-carousel .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-indent: -99999px;
+    background-color: #fff;
+}
+
+.main-carousel .slick-dots .slick-active button {
+    background-color: #aaa;
+}

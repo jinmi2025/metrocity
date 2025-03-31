@@ -1,34 +1,43 @@
 /* Main.css */
 
-.main-slide {
-    margin-bottom: 80px;
-}
-
-.main-banner {
-    width: 1440px;
-    margin: 0 auto;
-}
-
-.main-banner .x2 {
-    display: flex;
-    gap: 24px;
-    margin-bottom: 24px;
-}
-
-.main-banner .x2>div {
-    width: 708px;
-}
-
+.main-slide,
+.main-banner,
 .main-carousel {
-    width: 1440px;
-    margin: 80px auto;
+    margin-bottom: 40px;
 }
 
-li {
-    list-style: none;
+@media screen and (min-width:768px) {
+
+    .main-slide,
+    .main-banner,
+    .main-carousel {
+        margin-bottom: 80px;
+    }
+
+    .main-banner .x2 {
+        display: flex;
+        padding: 0 28px;
+    }
+
+    .main-banner .x1 {
+        padding: 0 28px;
+    }
+
 }
 
-.main-carousel .item-card {
-    box-sizing: border-box;
-    padding: 0 12px;
+@media screen and (min-width:1280px) {
+
+    .main-slide {
+        margin-bottom: 120px;
+    }
+
+    .main-banner {
+        width: 1440px;
+        margin: 0 auto 120px auto;
+    }
+
+    .main-carousel {
+        width: 1386px;
+        margin: 0 auto 120px auto;
+    }
 }

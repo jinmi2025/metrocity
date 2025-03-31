@@ -1,0 +1,12 @@
+/* App.css */
+
+#wrapper {
+    position: relative;
+    width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+    #wrapper {
+        min-width: 1440px;
+    }
+}
