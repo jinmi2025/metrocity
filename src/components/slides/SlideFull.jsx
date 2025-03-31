@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "slick-carousel/slick/slick.css";
 import './SlideFull.css';
 
@@ -8,7 +8,7 @@ const BtnPrev = (props) => {
     const { className, onClick } = props;
     return (
         <div className={className} onClick={onClick}>
-            <FontAwesomeIcon icon={faArrowLeft} />
+            <FontAwesomeIcon icon={faChevronLeft} />
         </div>
     )
 }
@@ -17,7 +17,7 @@ const BtnNext = (props) => {
     const { className, onClick } = props;
     return (
         <div className={className} onClick={onClick}>
-            <FontAwesomeIcon icon={faArrowRight} />
+            <FontAwesomeIcon icon={faChevronRight} />
         </div>
     )
 }

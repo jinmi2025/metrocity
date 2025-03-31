@@ -1,5 +1,5 @@
 import { Outlet, BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AccountRoutes } from './routes';
+import { AccountRoutes, ProdutRoutes } from './routes';
 import { AuthProvider } from './data';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
@@ -27,6 +27,7 @@ const App = () => {
             <Route index element={<Main />} />
             <Route path='/account/*' element={<AccountRoutes />} />
             <Route path='/search' element={<SearchResults />} />
+            <Route path='/product/*' element={<ProdutRoutes />} />
           </Route>
         </Routes>
       </BrowserRouter>

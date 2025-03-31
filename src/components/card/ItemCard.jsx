@@ -4,7 +4,7 @@ import './ItemCard.css';
 const ItemCard = ({ product }) => {
     return (
         <li className='item-card'>
-            <p className="product-img"><img src={product.thumbnail} /></p>
+            <p className="product-img"><img src={product.thumbnail[0]} /></p>
             <p className="product-name">
                 {product.name} {product.serial}
             </p>

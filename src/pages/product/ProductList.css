@@ -1,0 +1,85 @@
+/* ProductList.css */
+
+.product-list-inner {
+    width: 1440px;
+    margin: 40px auto;
+}
+
+.product-list h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.product-list .page-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.product-list .page-top .right {
+    display: flex;
+    gap: 12px;
+    font-size: 13px;
+}
+
+.product-list .page-top .right .item-count::after {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    height: 11px;
+    border-right: 1px solid #ccc;
+    margin-top: 4px;
+    margin-left: 12px;
+}
+
+.product-list .page-top .right .sort-btn {
+    display: flex;
+    gap: 8px;
+}
+
+.product-list .page-top .right .sort-btn button {
+    border: 0;
+    background-color: transparent;
+    color: #888;
+    font-size: 13px;
+}
+
+.product-list .page-top .right .sort-btn .active button {
+    color: #222;
+}
+
+.product-list-box {
+    margin-bottom: 60px;
+}
+
+.product-list-box ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 20px;
+}
+
+.product-list-box li {
+    width: 272px;
+}
+
+.product-list .pager {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.product-list .pager button {
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background-color: transparent;
+}
+
+.product-list .pager .paging button {
+    color: #888;
+}
+
+.product-list .pager .paging.active button {
+    color: #d70000;
+}

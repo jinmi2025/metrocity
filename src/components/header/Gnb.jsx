@@ -30,17 +30,17 @@ const Gnb = ({ setHoverBgHeight }) => {
                     </div>
                 </li>
                 <li className="has3" onMouseEnter={handleDepth1MouseEnter} onMouseLeave={handleDepth1MouseLeave}>
-                    <Link to="/">WOMEN</Link>
+                    <Link to="/product/list?main_cate=WOMEN">WOMEN</Link>
                     <div className="depth2">
                         <div className="depth2-inner">
                             <div className="depth2-menu">
                                 <ul>
                                     <li>
-                                        <Link to='/'>BAG</Link>
+                                        <Link to='/product/list?main_cate=WOMEN&sub_cate=BAG'>BAG</Link>
                                         <div className="depth3-menu">
                                             <ul>
                                                 <li><Link to='/'>BEST</Link></li>
-                                                <li><Link to='/'>TOTE BAG</Link></li>
+                                                <li><Link to='/product/list?main_cate=WOMEN&sub_cate=BAG&detail_cate=TOTEBAG'>TOTE BAG</Link></li>
                                                 <li><Link to='/'>SHOULDER BAG</Link></li>
                                                 <li><Link to='/'>CROSS BAG</Link></li>
                                                 <li><Link to='/'>MINI BAG</Link></li>
@@ -51,11 +51,11 @@ const Gnb = ({ setHoverBgHeight }) => {
                                         </div>
                                     </li>
                                     <li>
-                                        <Link to='/'>SLG</Link>
+                                        <Link to='/product/list?main_cate=WOMEN&sub_cate=SLG'>SLG</Link>
                                         <div className="depth3-menu">
                                             <ul>
                                                 <li><Link to='/'>BEST</Link></li>
-                                                <li><Link to='/'>WALLET</Link></li>
+                                                <li><Link to='/product/list?main_cate=WOMEN&sub_cate=SLG&detail_cate=WALLET'>WALLET</Link></li>
                                                 <li><Link to='/'>CARD WALLET</Link></li>
                                                 <li><Link to='/'>OTHER</Link></li>
                                             </ul>

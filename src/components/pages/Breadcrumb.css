@@ -1,0 +1,32 @@
+/* Breadcrumb.css */
+
+.breadcrumb {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+}
+
+.breadcrumb p::after {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    transform: rotate(45deg);
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.breadcrumb p:last-child:after {
+    display: none;
+}
+
+.breadcrumb p a {
+    color: #555;
+}
+
+.breadcrumb p a:hover {
+    text-decoration: underline;
+}
