@@ -31,7 +31,7 @@ const SlideCarousel = ({ items }) => {
                     slidesToScroll: 1,
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '80px',
+                    centerPadding: '24px',
                     initialSlide: 0
                 }
             },
