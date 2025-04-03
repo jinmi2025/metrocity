@@ -1,3 +1,5 @@
 import Breadcrumb from "./Breadcrumb";
+import ImgSection from "./ImgSection";
+import InfoSection from "./InfoSection";
 
-export { Breadcrumb };
+export { Breadcrumb, ImgSection, InfoSection };

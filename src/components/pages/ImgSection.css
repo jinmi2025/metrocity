@@ -1,0 +1,59 @@
+/* ImgSection.css */
+
+.ImgSection .main-img {
+    position: relative;
+}
+
+.ImgSection .main-img .pager {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4px;
+}
+
+.ImgSection .main-img .pager ul {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ImgSection .main-img .pager li button {
+    width: 8px;
+    height: 8px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #111;
+    opacity: 0.5;
+    text-indent: -99999px;
+}
+
+.ImgSection .main-img .pager .active button {
+    opacity: 1;
+}
+
+.ImgSection .thumbs-list {
+    display: none;
+}
+
+@media screen and (min-width:1280px) {
+    .ImgSection {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 904px;
+    }
+
+    .ImgSection .main-img {
+        position: relative;
+        width: 800px;
+    }
+
+    .ImgSection .thumbs-list {
+        display: block;
+    }
+
+    .ImgSection .thumbs-list li {
+        width: 96px;
+        margin-bottom: 4px;
+    }
+}

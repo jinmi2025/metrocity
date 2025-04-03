@@ -1,1 +1,54 @@
 /* ProductDetail.css */
+
+.ProductDetail {
+    padding: 0 0 40px 0;
+}
+
+.ProductDetail .breadcrumb {
+    display: none;
+}
+
+.ProductDetail .right {
+    display: none;
+}
+
+@media screen and (min-width:1280px) {
+    .ProductDetail {
+        width: 1440px;
+        padding: 40px 0 80px 0;
+        margin: 0 auto;
+    }
+
+    .ProductDetail .breadcrumb {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .ProductDetail .inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ProductDetail .left .InfoSection {
+        display: none;
+    }
+
+    .ProductDetail .right {
+        display: block;
+    }
+
+    .ProductDetail .right .InfoSection {
+        position: sticky;
+        top: 40px;
+        height: 100vh;
+    }
+
+    /* 
+        position: sticky 
+        - 부모태그 높이값을 기준으로 스크롤이 발생될 때 포지션 성질을 변경하는 값
+        - 부모태그의 높이값이 컨텐츠만큼 길게 표현되어야함. 
+          (여기서는 .right 영역)(.right 영역에 높이값 입력을 안했지만, .inner의 flex로 .right의 높이값이 .left만큼 늘어난 상황임.) 
+        - sticky 처리 한 태그에 높이값 입력되어야함. 
+        - sticky 처리를 하면 스크롤이 부모영역을 지나게 될 때 position:fixed를 만들어주기 때문에 top속성 사용해야함. 
+    */
+}

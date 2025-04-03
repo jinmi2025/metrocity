@@ -1,0 +1,71 @@
+/* InfoSection.css */
+
+.InfoSection {
+    padding: 40px 0px;
+}
+
+.InfoSection .name-info {
+    padding: 0 16px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.InfoSection .price-info {
+    padding: 0 16px;
+    margin-bottom: 24px;
+}
+
+.InfoSection .price-info .price-display {
+    gap: 12px;
+}
+
+.InfoSection .price-info .discount,
+.InfoSection .price-info .sale-price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.InfoSection .price-info .origin-price {
+    padding-bottom: 2px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.InfoSection .reward-info {
+    border-top: 1px solid #ddd;
+    padding: 24px 16px;
+    font-size: 15px;
+}
+
+.InfoSection .reward-info div {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.InfoSection .reward-info .label {
+    width: 100px;
+}
+
+.InfoSection .reward-info .value {
+    font-weight: 600;
+}
+
+.InfoSection .color-info {
+    margin-bottom: 24px;
+    padding: 0 16px;
+}
+
+.InfoSection .color-info .label {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.InfoSection .color-info ul {
+    display: flex;
+    gap: 4px;
+}
+
+.InfoSection .color-info li {
+    width: 64px;
+}
