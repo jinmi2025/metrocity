@@ -29,12 +29,17 @@
         justify-content: space-between;
     }
 
+    .ProductDetail .left {
+        width: 904px;
+    }
+
     .ProductDetail .left .InfoSection {
         display: none;
     }
 
     .ProductDetail .right {
         display: block;
+        width: 470px;
     }
 
     .ProductDetail .right .InfoSection {

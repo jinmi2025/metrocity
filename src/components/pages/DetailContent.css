@@ -1,0 +1,22 @@
+.detail-content {
+    padding: 0 16px;
+}
+
+.detail-content .tabBtn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detail-content .tabBtn p button {
+    width: 100%;
+    height: 48px;
+    border: 0;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #999;
+}
+
+.detail-content .tabBtn .active button {
+    color: #121212;
+}

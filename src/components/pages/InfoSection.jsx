@@ -18,6 +18,17 @@ const InfoSection = ({ product, otherVariants }) => {
         setQuantity(1);
     }
 
+    const handleDecrease = () => {
+        if (quantity > 1) setQuantity(quantity - 1);
+    };
+
+    const handleIncrease = () => {
+        setQuantity(quantity + 1);
+    };
+
+    const totalPrice = salePrice * quantity;
+    const totalReward = Math.floor(totalPrice * 0.02);
+
     return (
         <div className="InfoSection">
             <div className='name-info'>
@@ -60,6 +71,38 @@ const InfoSection = ({ product, otherVariants }) => {
                             <option value='free'>FREE</option>
                         </optgroup>
                     </select>
+                </div>
+                {selectOption === "free" && (
+                    <div className="selected-size">
+                        <p>
+                            <strong>제품명:</strong> {product.name}
+                        </p>
+                        <p>
+                            <strong>선택 사이즈:</strong> {selectOption}
+                        </p>
+                        <div className="quantity-selector">
+                            <button onClick={handleDecrease}>-</button>
+                            <span>{quantity}</span>
+                            <button onClick={handleIncrease}>+</button>
+                        </div>
+                        <p>
+                            <strong>가격:</strong> {totalPrice.toLocaleString()}원
+                        </p>
+                        <p>
+                            <strong>적립금:</strong> {totalReward.toLocaleString()}원
+                        </p>
+                    </div>
+                )}
+                <div className="totalPriceDisplay">
+                    <p>TOTAL (QUANTITY)</p>
+                    <p>
+                        <PriceNumber price={totalPrice} que="won" />
+                        (적, <PriceNumber price={totalReward} que="p" />)
+                    </p>
+                </div>
+                <div className="submit">
+                    <button className="add-to-cart">장바구니</button>
+                    <button className="buy-now">즉시구매</button>
                 </div>
             </div>
         </div>

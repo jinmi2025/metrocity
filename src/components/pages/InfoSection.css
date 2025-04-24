@@ -69,3 +69,63 @@
 .InfoSection .color-info li {
     width: 64px;
 }
+
+.InfoSection .size-info {
+    padding: 0 16px;
+}
+
+.InfoSection .size-info .label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.InfoSection .size-select {
+    margin-bottom: 16px;
+}
+
+.InfoSection .size-select select {
+    width: 100%;
+    height: 36px;
+}
+
+.InfoSection .selected-size {
+    margin-bottom: 16px;
+}
+
+.InfoSection .selected-size p {
+    margin-bottom: 4px;
+}
+
+.InfoSection .totalPriceDisplay {
+    margin-bottom: 16px;
+}
+
+.InfoSection .submit {
+    display: flex;
+    gap: 4px;
+}
+
+.InfoSection .submit button {
+    width: 50%;
+    height: 36px;
+}
+
+
+@media screen and (min-width:1280px) {
+    .InfoSection .name-info {
+        padding: 0;
+    }
+
+    .InfoSection .price-info {
+        padding: 0;
+    }
+
+    .InfoSection .reward-info {
+        padding: 24px 0;
+    }
+
+    .InfoSection .color-info {
+        padding: 0;
+    }
+}

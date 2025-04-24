@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
 
-import { Breadcrumb, ImgSection, InfoSection } from '../../components/pages';
+import { Breadcrumb, ImgSection, InfoSection, DetailContent } from '../../components/pages';
 
 import "./ProductDetail.css";
 
@@ -67,7 +67,7 @@ const ProductDetail = () => {
                         productThumbs={product.thumbnail}
                     />
                     <InfoSection product={product} otherVariants={otherVariants} />
-                    <div style={{ height: '2000px', backgroundColor: '#ffaadd' }}>상세페이지 내용</div>
+                    <DetailContent product={product} />
                 </div>
                 <div className="right">
                     <InfoSection product={product} otherVariants={otherVariants} />
